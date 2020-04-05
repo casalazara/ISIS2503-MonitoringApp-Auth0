@@ -137,12 +137,12 @@ STATICFILES_DIRS = (
 
 LOGIN_URL = "/login/auth0"
 LOGIN_REDIRECT_URL = "/"
-LOGOUT_REDIRECT_URL = "https://isis2503-nicolasabo17.auth0.com/v2/logout?returnTo=http%3A%2F%2F54.242.230.225:8000"
+LOGOUT_REDIRECT_URL = "https://isis2503-andreslel.auth0.com/v2/logout?returnTo=http%3A%2F%2F54.242.230.225:8000"
 
 SOCIAL_AUTH_TRAILING_SLASH = False # Remove end slash from routes
-SOCIAL_AUTH_AUTH0_DOMAIN = 'isis2503-nicolasabo17.auth0.com'
-SOCIAL_AUTH_AUTH0_KEY = 'Iz5OW2nBndN3V31CQKTOmqV0DLXaYj6Z'
-SOCIAL_AUTH_AUTH0_SECRET = 'e7S8F2BrOb5byEwwToQQF9agrlNxzwE7i2euFzFYLsfJfcn2WmrgNCb2QFRTHPql'
+SOCIAL_AUTH_AUTH0_DOMAIN = 'isis2503-andreslel.auth0.com'
+SOCIAL_AUTH_AUTH0_KEY = 'lqSrGJSa5LSGCqYvrCcVjZ5sKsRzFFus'
+SOCIAL_AUTH_AUTH0_SECRET = 'oYeNDzQT7mJNo2LajB3t7BscVhYqYksC9hwwQR7LIA7PGSpCcjFc6A5-KlYypJrQ'
 
 SOCIAL_AUTH_AUTH0_SCOPE = [ 'openid', 'profile' ]
 AUTHENTICATION_BACKENDS = {
